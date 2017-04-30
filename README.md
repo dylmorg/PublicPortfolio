@@ -20,3 +20,5 @@ Terrorism_Data
 Please note the dataset is not included with these files; you may access it by following the instructions on the GTD's website. If you wish to view it for academic purposes, it should be as simple as filling out a short form.
 Terrorism_Data.pdf
 	This is the original report I submitted for that class. It was the beginning of my journey with this dataset, but not the conclusion.
+Terrorism_Data.R
+	My R code of this basic analysis performed above. This includes both what is in the document above, some additional analysis, and some comments attempting to explain my thoughts.
