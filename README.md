@@ -22,3 +22,8 @@ Terrorism_Data.pdf
 	This is the original report I submitted for that class. It was the beginning of my journey with this dataset, but not the conclusion.
 Terrorism_Data.R
 	My R code of this basic analysis performed above. This includes both what is in the document above, some additional analysis, and some comments attempting to explain my thoughts.
+
+TupleGenerator
+	This was part of a project that generated tuples for a PostGre database and sent them to the database. While the best approach would be to simply create a .sql file, this was determined to be the best solution at the time to both create the tuples in Java, change the types appropiately, and then connect and send them to the database.
+PostGreGenerator.java
+	The original Java file submitted for that project.
