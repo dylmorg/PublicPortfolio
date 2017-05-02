@@ -16,14 +16,23 @@ I hope to be also giving an outline of my past work to publicly show what I have
 Data_Analysis - Work I've done with data analysis in Python and R. Items in this folder include:
 
 Terrorism_Data
-	This project began in a STAT 4210 class and was expanded upon afterwards. The data from the GTD (Global Terrorism Database) was anaylzed on the question of if there was a signfiicant difference in terror attacks before and after 9/11. The metrics used were fatalities per attack and the number of attacks. The simple conclusion is that there is a significant difference in both; terror attacks are less likely to occur, but when deadly attacks do occur, they take more lives than previously. However, when focusing on deadly terror attacks and removing any cases of unknown or isolated motivations, the number of fatalities is not signficiantly different. There is also no clear connection between the number of terror incients or fatalities in the United States and any organized group. Additionally, suicide attacks are far more common, and the terrorism situation between Europe and the United States is significantly differnent; European terror is far more organized, but still mostly conforms to separatist movements, whereas terror in the United States is more perpetrated by lone wolves and extremeists on the right and left (ie ELF and anti abortion activists).
+	This project began in a STAT 4210 class and was expanded upon afterwards. The data from the GTD (Global Terrorism Database) was anaylzed around the chosen question of if there was a signfiicant difference in terror attacks before and after 9/11. The metrics used were fatalities per attack and the number of attacks. The simple conclusion is that there is a significant difference in both; terror attacks are less likely to occur, but when deadly attacks do occur, they take more lives than previously. However, when focusing on deadly terror attacks and removing any cases of unknown or isolated motivations, the number of fatalities is not signficiantly different. More interesting, there have been 0 deadly organized terror dattacks on the United States since 2001. While Islamic terror groups are often cited as a motivator, there is no evidence of cooridination and just as little that these incidents would not have happened if those groups did not exist.
+There is also no clear connection between the number of terror incients or fatalities in the United States and any organized group. Additionally, suicide attacks are far more common, and the terrorism situation between Europe and the United States is significantly differnent; European terror is far more organized, but still mostly conforms to separatist movements, whereas terror in the United States is more perpetrated by lone wolves and extremeists on the right and left (ie ELF and anti abortion activists).
 Please note the dataset is not included with these files; you may access it by following the instructions on the GTD's website. If you wish to view it for academic purposes, it should be as simple as filling out a short form.
 Terrorism_Data.pdf
 	This is the original report I submitted for that class. It was the beginning of my journey with this dataset, but not the conclusion.
 Terrorism_Data.R
 	My R code of this basic analysis performed above. This includes both what is in the document above, some additional analysis, and some comments attempting to explain my thoughts.
 
+
+Databases - Work either involving a .sql file or a database in some capacity.
 TupleGenerator
-	This was part of a project that generated tuples for a PostGre database and sent them to the database. While the best approach would be to simply create a .sql file, this was determined to be the best solution at the time to both create the tuples in Java, change the types appropiately, and then connect and send them to the database.
+	This was part of a project that generated tuples for a PostGreSQL database and sent them to the database. While the best approach would be to simply create a .sql file, this was determined to be the best solution at the time to both create the tuples in Java, change the types appropiately, and then connect and send them to the database.
 PostGreGenerator.java
 	The original Java file submitted for that project.
+
+
+Term Project (PRIVATE) - A basic website with Boostrap/HTML frontend, PHP backend, MySQL database, Facebook API integration meant as a source of customizeable yet professional websites and resume displays. This is private, as multiple people I worked with to create this have requested it to be out of privacy concerns.
+
+
+
